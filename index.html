@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+ 
+  <style>
+    /* .attribution { font-size: 11px; text-align: center; } */
+    .attribution a { color: hsl(228, 45%, 44%);
+      
+    }
+  
+    p{
+     font-size:14px;
+    }
+    body{
+      background:hsl(0, 0%, 8%);
+      color: white;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+    }
+    .img{
+      width: 118px;
+      height: 109px;
+    }
+    .btn{
+      background-color: gray;
+      background-color:  hsl(0, 0%, 20%);
+    }
+    #container{
+      background-color:hsl(0, 0%, 12%) ;
+      
+    }
+    #btn:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  
+  <section class="w-72 my-10  min-w-72 max-w-96 mx-auto sm:w-1/2 mx-auto" id="container">
+    <div>
+      <div class="flex justify-center ">
+        <img src="./assets/images/avatar-jessica.jpeg" class="rounded-full w-1/5 h-1/5 my-5" alt="">
+      </div>
+    </div>
+    <section class="text-center text-lg">
+      <h1 class="cursor-pointer">Jessica Randall</h1>
+      <h3 class="text-center text-sm text-lime-500 font-bold">  London, United Kingdom</h3>
+      <p class="text-sm my-5 mb-6"> "Front-end developer and avid reader."</p>
+    </section>
+    <section class="my-5 flex flex-col ">
+     
+      <button class="py-2 px-2 mx-3 mb-5  rounded-sm btn"id="btn">GitHub</button>
+      <button class="py-2 px-2 mx-3 mb-5  rounded-sm btn"id="btn">Frontend Mentor</button>
+      <button class="py-2 px-2 mx-3 mb-5  rounded-sm btn"id="btn">LinkedIn</button>
+      <button class="py-2 px-2 mx-3 mb-5  rounded-sm btn"id="btn">Twitter</button>
+      <button class="py-2 px-2 mx-3 mb-5  rounded-sm btn"id="btn">Instagram</button>
+    </section>
+  </section>
+  <div class="attribution text-center text-xs mt-20">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ajaysathasivam?tab=repositories"c>ajaysathasivam</a>.
+  </div>  
+</body>
+</html>
